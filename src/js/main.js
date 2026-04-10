@@ -36,7 +36,7 @@ const { scaleFactor, destroy } = initAutoRem({
   baseSiteWidth: 1920,
   baseFontSize: 16,
   widthFactor: 1,
-  auto: true,
+  auto: false,
   edge: false,
 
   onUpdate: () => {
