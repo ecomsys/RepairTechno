@@ -1,0 +1,132 @@
+html {
+  opacity: 0;
+  transition: opacity 0.75s ease 0.5s;  
+  overflow-x: hidden;
+}
+
+html.loaded {
+  opacity: 1;
+}
+
+/* Пример кастомного блока */
+body {
+    font-family: "Manrope", sans-serif;    
+}
+
+
+.eco-container {
+    width: 100%;
+    max-inline-size: 120rem;
+    min-inline-size: 120rem;
+    /* min-inline-size: 20rem; */
+    margin-inline: auto;
+    padding-inline: 23.75rem;
+    /* padding-inline: 0.625rem; */
+}
+
+/* 
+@media (min-width: 30rem) {
+    .eco-container {
+        padding-inline: 0.9375rem;
+    }
+
+}
+
+@media (min-width: 40rem) {
+    .eco-container {
+        padding-inline: 1.25rem;
+    }
+
+}
+
+@media (min-width: 48rem) {
+    .eco-container {
+        padding-inline: 1.875rem;
+    }
+
+}
+
+@media (min-width: 64rem) {
+    .eco-container {
+        padding-inline: 1.875rem;
+    }
+
+}
+
+@media (min-width: 80rem) {
+    .eco-container {
+        padding-inline: 6rem;
+    }
+
+}
+
+@media (min-width: 96rem) {
+    .eco-container {
+        padding-inline: 15rem;
+    }
+
+}
+
+@media (min-width: 117.5rem) {
+    .eco-container {
+        padding-inline: 23.75rem;
+    }
+} */
+
+.hero-bg {
+    background: linear-gradient(180deg, #f4f4ff 0%, #fff 100%);
+}
+
+
+/*===============================
+buttons
+===============================*/
+
+
+button {
+    appearance: none;
+}
+
+.button-bg {
+    background: #ffe942;
+    box-shadow: 0.625rem 0.625rem 1.25rem 0 rgb(245, 148, 174, 0.3);
+}
+
+.button-bg:hover {
+    @apply hover:bg-yellow-300;
+}
+
+.button-bg-noshadow {
+    background: #ffe942;
+}
+
+.button-bg-noshadow:hover {
+    @apply hover:bg-yellow-300;
+    box-shadow: 0.625rem 0.625rem 1.25rem 0 rgb(245, 148, 174, 0);
+}
+
+
+
+/*===============================
+slider with reviews
+===============================*/
+
+.reviews-slider {
+    height: 100%;
+    /* подгони под дизайн */
+}
+
+.reviews-slider .swiper-slide {
+    display: flex;
+    height: calc((100% - 1.25rem) / 2);
+}
+
+.reviews-slider .slide-inner {
+    height: 100%;
+    display: flex;
+}
+
+.reviews-slider .slide-inner>* {
+    height: 100%;
+    width: 100%;
+}

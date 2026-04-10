@@ -1,0 +1,36 @@
+<div class="flex items-center bg-light 
+gap-[0.625rem] rounded-[0.625rem] py-[1.125rem] pl-[1.25rem] pr-[1.25rem] h-[full]">
+
+  <!-- ICON -->
+  <div class="w-[2.5rem] h-[2.5rem] flex items-center justify-center">
+    <svg class="w-[2.5rem] h-[2.5rem]">
+      <use href="/icons/sprite/sprite.svg#{{iconId}}"></use>
+    </svg>
+  </div>
+
+  <!-- RATING VALUE -->
+  <div class="text-[1.875rem] font-semibold tracking-[-0.07em] text-[#0F172A]">
+    {{rating}}
+  </div>
+
+  <!-- STARS + REVIEWS -->
+  <div class="flex flex-col gap-[0.1875rem] pl-[0.3125rem]">
+
+    <div class="flex items-center gap-[0.25rem]">
+
+      {{#times starCount}}
+        <svg class="w-[0.8125rem] h-[0.8125rem] text-yellow-400">
+          <use href="/icons/sprite/sprite.svg#star"></use>
+        </svg>
+      {{/times}}
+
+    </div>
+
+    <!-- REVIEWS COUNT -->
+    <div class="text-[0.8125rem] font-normal tracking-[-0.01em] text-[#6624D6]">
+      {{reviews}}
+    </div>
+
+  </div>
+
+</div>

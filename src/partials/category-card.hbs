@@ -1,0 +1,26 @@
+<!-- src/partials/category-card.hbs -->
+
+<a href="{{href}}" class="relative bg-light rounded-[0.625rem] p-[1.875rem] aspect-[275/196] flex flex-col gap-[0.625rem]">
+
+  <!-- TOP RIGHT ARROW -->
+  <div class="absolute top-[0.625rem] right-[0.625rem] w-[2.5rem] h-[2.5rem] bg-white rounded-[0.3125rem] flex items-center justify-center">
+    <svg class="w-[0.4375rem] h-[0.75rem] text-black">
+      <use href="/icons/sprite/sprite.svg#right"></use>
+    </svg>
+  </div>
+
+  <!-- IMAGE -->
+  <div class="flex justify-center items-center">
+    <img 
+      src="{{image}}" 
+      alt="{{title}}" 
+      class="w-[6.25rem] h-[6.25rem] object-contain aspect-square"
+    />
+  </div>
+
+  <!-- TITLE -->
+  <div class="text-center text-[1.125rem] font-bold text-black tracking-[0.01em]">
+    {{title}}
+  </div>
+
+</a>

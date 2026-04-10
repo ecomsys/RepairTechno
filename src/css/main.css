@@ -1,0 +1,8 @@
+/* entry point */
+
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@import "./fonts.css";
+@import "./app.css";
+

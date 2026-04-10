@@ -1,0 +1,10 @@
+# Включаем модуль переписывания
+RewriteEngine On
+
+# 1. Если файл или папка реально существует — ничего не делаем
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 2. Всё остальное → index.html (лендинг)
+RewriteRule ^ index.html [L]

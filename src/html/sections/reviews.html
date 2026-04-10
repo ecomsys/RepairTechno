@@ -1,0 +1,192 @@
+<section class="w-full py-16">
+  <div class="eco-container">
+    <!-- TOP ROW -->
+    <div class="flex items-center justify-between mb-9">
+
+      <!-- TITLE -->
+      <h2 class="text-[2.25rem] font-semibold tracking-[0.01em] text-[#1C1E24]">
+        Отзывы и рейтинги
+      </h2>
+
+      <!-- NAVIGATION -->
+      <div class="flex items-center gap-[0.75rem] translate-y-[1.5rem]">
+
+        <!-- PREV -->
+        <button class="reviews-prev cursor-pointer w-[2.5rem] h-[2.5rem] rounded-[0.5rem] bg-primary hover:opacity-75 transition duration-300
+         text-white flex items-center justify-center">
+          <svg class="w-[0.625rem] h-[1rem] z-10">
+            <use href="/icons/sprite/sprite.svg#left"></use>
+            </svg>
+        </button>
+
+        <!-- NEXT -->
+        <button class="reviews-next cursor-pointer w-[2.5rem] h-[2.5rem] rounded-[0.5rem]  bg-primary hover:opacity-75 transition duration-300 
+        text-white flex items-center justify-center">
+                <svg class="w-[0.625rem] h-[1rem] ">
+            <use href="/icons/sprite/sprite.svg#right"></use>
+            </svg>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="flex gap-[1.875rem]">
+
+      <!-- LEFT COLUMN (20%) -->
+      <div class="w-[19%] shrink-0">
+        <div class=" flex flex-col gap-[0.625rem]">
+
+        {{> reviews-rating-card 
+        iconId="yandex"
+        rating="5.0"
+        starCount=5
+        reviews="480 отзывов"        
+        }}
+        
+
+        {{> reviews-rating-card 
+        iconId="gis"
+        rating="4.9"
+        starCount=5
+        reviews="480 отзывов"        
+        }}
+
+      </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN (80%) -->
+      <div class="w-[81%] min-w-0">        
+            <div class="swiper reviews-slider w-full overflow-hidden">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Мариа"
+                    role="Ремонт смартфонов"
+                    text="Обратилась для замены экрана Ha Samsung — все сделали в сроки по приятной цене. Спасибо за отличное обслуживание. Рекомендую!"
+                    avatar="/images/webp/reviews/review-1.webp"
+                }}
+                </div>
+                </div>
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Алексей"
+                    role="Ремонт ноутбуков"
+                    text="Отличный сервис! Тачпад Ha ноутбуке починили быстро икачественно. Очень доволен работой специалистов."
+                    avatar="/images/webp/reviews/review-2.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Валерия"
+                    role="Ремонт техники"
+                    text="Ремонтировали мой ноутбук — все работает отлично. Цена и сроки полностью устроили. Обязательно вернусь при необходимости."
+                    avatar="/images/webp/reviews/review-3.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Алексей"
+                    role="Сервисный ремонт"
+                    text="Отличный сервис! Тачпад Ha ноутбуке починили быстро икачественно. Очень доволен работой специалистов."
+                    avatar="/images/webp/reviews/review-2.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Мариа"
+                    role="Ремонт ПК"
+                    text="Обратилась для замены экрана Ha Samsung — все сделали в сроки по приятной цене. Спасибо за отличное обслуживание. Рекомендую!"
+                    avatar="/images/webp/reviews/review-1.webp"
+                }}
+                </div>
+                </div>
+
+
+<div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Валерия"
+                    role="Ремонт планшетов"
+                    text="Ремонтировали мой ноутбук — все работает отлично. Цена и сроки полностью устроили. Обязательно вернусь при необходимости."
+                    avatar="/images/webp/reviews/review-3.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Алексей"
+                    role="Сервисный центр"
+                    text="Отличный сервис! Тачпад Ha ноутбуке починили быстро икачественно. Очень доволен работой специалистов."
+                    avatar="/images/webp/reviews/review-2.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Мариа"
+                    role="Ремонт электроники"
+                    text="Обратилась для замены экрана Ha Samsung — все сделали в сроки по приятной цене. Спасибо за отличное обслуживание. Рекомендую!"
+                    avatar="/images/webp/reviews/review-1.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Валерия"
+                    role="Ремонт электроники"
+                    text="Ремонтировали мой ноутбук — все работает отлично. Цена и сроки полностью устроили. Обязательно вернусь при необходимости."
+                    avatar="/images/webp/reviews/review-3.webp"
+                }}
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+  <div class="slide-inner">
+                {{> review-card
+                    name="Алексей"
+                    role="Ремонт электроники"
+                    text="Отличный сервис! Тачпад Ha ноутбуке починили быстро икачественно. Очень доволен работой специалистов."
+                    avatar="/images/webp/reviews/review-2.webp"
+                }}
+                </div>     
+                </div>
+                          
+
+            </div>           
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

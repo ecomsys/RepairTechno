@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/WOFF2/PlusJakartaSans-SemiBold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/WOFF2/PlusJakartaSans-Bold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/WOFF2/PlusJakartaSans-ExtraBold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/WOFF2/Inter-Bold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/WOFF2/Inter-Medium.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/WOFF2/Inter-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/WOFF2/Manrope-Bold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/WOFF2/Manrope-Medium.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/WOFF2/Manrope-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/WOFF2/Manrope-SemiBold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+

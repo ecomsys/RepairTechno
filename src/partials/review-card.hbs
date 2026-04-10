@@ -1,0 +1,32 @@
+<div class="h-full border-[0.0625rem] border-[#E99994] rounded-[0.625rem] p-[1.875rem] flex flex-col gap-[1.1875rem]">
+
+  <!-- HEADER -->
+  <div class="flex items-center gap-[1.25rem]">
+
+    <!-- AVATAR -->
+    <div class="w-[3.4375rem] h-[3.4375rem] rounded-[0.3125rem] overflow-hidden bg-light">
+      <img 
+        src="{{avatar}}" 
+        alt="{{name}}" 
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+    <!-- TEXT INFO -->
+    <div class="flex flex-col">
+      <div class="text-[1.25rem] leading-[1.3] font-semibold text-black">
+        {{name}}
+      </div>
+      <div class="text-[0.875rem] leading-[1.4] tracking-[0.02em] text-grey">
+        {{role}}
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BODY TEXT -->
+  <div class="text-[1rem] font-normal leading-[160%] tracking-[0.02em] text-[#626464]">
+    {{text}}
+  </div>
+
+</div>
